@@ -28,5 +28,23 @@ public class ErrorValidation extends BaseTest {
 
 	}
 	
+	@Test
+	
+	public void errorItem() throws IOException, InterruptedException {
+		// TODO Auto-generated method stub
+		String name = "ZARA COAT 3";
+		productCatlogPage productCatlogPage = LandingPage.loginPage("testing121212@gmail.com", "Naga@1212");
+		productCatlogPage.productsItems(name);
+		productCatlogPage.addToCart(name);
+		CartPage CartPage = productCatlogPage.goToCart();
+
+		boolean check = CartPage.chekItemsInCart("ZARA COAT 33");
+		Assert.assertFalse(check);
+		
+
+	}
+	
+	//Ganesh Naga Here 
+	
 
 }
