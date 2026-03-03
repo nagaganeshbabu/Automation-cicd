@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-26T17:06:26 IST" name="Suite" finished-at="2026-02-26T17:06:46 IST" duration-ms="20280">
+  <suite started-at="2026-03-02T19:18:37 IST" name="Suite" finished-at="2026-03-02T19:19:03 IST" duration-ms="25645">
     <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.errorLogins()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.ErrorValidation@41330d4f]" name="errorLogins" class="SoftwareTesting.NewSeleniumFrameWork.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
       <group name="purches">
-        <method signature="SubmitOrder.orderProduct(java.util.HashMap)[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@5c5eefef]" name="orderProduct" class="SoftwareTesting.NewSeleniumFrameWork.SubmitOrder"/>
+        <method signature="SubmitOrder.orderProduct(java.util.HashMap)[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@4e5ed836]" name="orderProduct" class="SoftwareTesting.NewSeleniumFrameWork.SubmitOrder"/>
       </group> <!-- purches -->
     </groups>
-    <test started-at="2026-02-26T17:06:26 IST" name="submitorder" finished-at="2026-02-26T17:06:46 IST" duration-ms="20239">
-      <class name="SoftwareTesting.NewSeleniumFrameWork.SubmitOrder">
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@5c5eefef]" started-at="2026-02-26T17:06:26 IST" name="lunchApplication" finished-at="2026-02-26T17:06:32 IST" duration-ms="5674" status="PASS">
+    <test started-at="2026-03-02T19:18:37 IST" name="Errorvalidation" finished-at="2026-03-02T19:18:54 IST" duration-ms="16426">
+      <class name="SoftwareTesting.NewSeleniumFrameWork.ErrorValidation">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.ErrorValidation@41330d4f]" started-at="2026-03-02T19:18:37 IST" name="lunchApplication" finished-at="2026-03-02T19:18:43 IST" duration-ms="5459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="orderProduct(java.util.HashMap)[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@5c5eefef]" started-at="2026-02-26T17:06:32 IST" name="orderProduct" data-provider="getData" finished-at="2026-02-26T17:06:36 IST" duration-ms="4449" status="PASS">
+        <test-method signature="errorItem()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.ErrorValidation@41330d4f]" started-at="2026-03-02T19:18:43 IST" name="errorItem" finished-at="2026-03-02T19:18:46 IST" duration-ms="3575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorItem -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.ErrorValidation@41330d4f]" started-at="2026-03-02T19:18:46 IST" name="lunchApplication" finished-at="2026-03-02T19:18:53 IST" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="errorLogins()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.ErrorValidation@41330d4f]" started-at="2026-03-02T19:18:53 IST" name="errorLogins" finished-at="2026-03-02T19:18:54 IST" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorLogins -->
+      </class> <!-- SoftwareTesting.NewSeleniumFrameWork.ErrorValidation -->
+    </test> <!-- Errorvalidation -->
+    <test started-at="2026-03-02T19:18:37 IST" name="submitorder" finished-at="2026-03-02T19:19:03 IST" duration-ms="25645">
+      <class name="SoftwareTesting.NewSeleniumFrameWork.SubmitOrder">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@4e5ed836]" started-at="2026-03-02T19:18:38 IST" name="lunchApplication" finished-at="2026-03-02T19:18:43 IST" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="orderProduct(java.util.HashMap)[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@4e5ed836]" started-at="2026-03-02T19:18:43 IST" name="orderProduct" data-provider="getData" finished-at="2026-03-02T19:18:49 IST" duration-ms="6096" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderProduct -->
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@5c5eefef]" started-at="2026-02-26T17:06:36 IST" name="lunchApplication" finished-at="2026-02-26T17:06:41 IST" duration-ms="5363" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@4e5ed836]" started-at="2026-03-02T19:18:49 IST" name="lunchApplication" finished-at="2026-03-02T19:18:56 IST" duration-ms="7426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="orderProduct(java.util.HashMap)[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@5c5eefef]" started-at="2026-02-26T17:06:41 IST" name="orderProduct" data-provider="getData" finished-at="2026-02-26T17:06:46 IST" duration-ms="4514" status="PASS">
+        <test-method signature="orderProduct(java.util.HashMap)[pri:0, instance:SoftwareTesting.NewSeleniumFrameWork.SubmitOrder@4e5ed836]" started-at="2026-03-02T19:18:56 IST" name="orderProduct" data-provider="getData" finished-at="2026-03-02T19:19:03 IST" duration-ms="6599" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +65,5 @@
         </test-method> <!-- orderProduct -->
       </class> <!-- SoftwareTesting.NewSeleniumFrameWork.SubmitOrder -->
     </test> <!-- submitorder -->
-    <test started-at="2026-02-26T17:06:46 IST" name="Errorvalidation" finished-at="2026-02-26T17:06:46 IST" duration-ms="0">
-    </test> <!-- Errorvalidation -->
   </suite> <!-- Suite -->
 </testng-results>
