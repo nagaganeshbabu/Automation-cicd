@@ -74,9 +74,7 @@ public class AbstrectComponents {
 	
 	
 
-// Here it is the Develpo batach 
-	
-//Again i am chnage  something to know more 
+
 
 
 // Justing to know that what is changeing and know that is it working or not
